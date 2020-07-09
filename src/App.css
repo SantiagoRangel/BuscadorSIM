@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  width: 100%;
+}
+.App {
+  text-align: center;
+  height: 100vh;
+  /*  margin-right: -100px; */
+  width: 100%;
+  /* overflow-y: auto; */
+  overflow-x: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input-group.md-form.form-sm.form-1 input {
+  border: 1px solid #bdbdbd;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input {
+  border: 1px solid #bdbdbd;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border {
+  border: 1px solid #376299;
+}
+
+#botonBuscar {
+  padding-top: 25px;
+}
+#botonBu {
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+}
+#div1 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  /*  padding-left: 25px; */
+}
+#buscar {
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: skyblue;
+}
+#divBuscar {
+  padding-top: 20px;
+}
+#resultados {
+  padding-top: 20px;
+  padding-right: 35px;
+}
+
+.Resultados {
+  padding-left: 30px;
+}
+.Resultado {
+  padding-left: 30px;
+}
+.detalle {
+  margin-bottom: 20px;
+}
+
+.principal {
+  background-image: url("./imagenes/imagen de fondo azul.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+#divHome {
+  background-image: url("./imagenes/imagen de fondo azul.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+#logoProcu {
+  width: 10%;
+  margin-top: 20px;
+}
+#divTitulo {
+  margin-top: 200px;
+}
+#h1Titulo {
+  color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+  font-size: 70pt;
+  font-weight: 600;
+}
+#h1Tituloc {
+  color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40pt;
+  font-weight: 600;
+}
+#h3Tituloc {
+  color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15pt;
+  font-weight: 400;
+  vertical-align: top;
+}
+.fa-plus:hover {
+  color: #376299;
+  cursor: pointer;
+}
+
+#h3Titulo {
+  color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25pt;
+  font-weight: 400;
+  vertical-align: top;
+}
+
+#formBuscar {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50%;
+
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  width: 800px;
+  height: 70px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 35px;
+  border: 4px solid white;
+  padding: 5px;
+}
+#inputBuscar {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 100%;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: inline;
+  font-size: 2em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.fa {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+
+  right: 5px;
+  border-radius: 50%;
+  color: #07051a;
+  text-align: center;
+  font-size: 1.9em;
+  transition: all 1s;
+}
+
+#formBuscar:hover {
+  width: 800px;
+  cursor: pointer;
+}
+
+#formBuscar:hover input {
+  display: bloinlck;
+}
+
+#formBuscar .fa {
+  background: #07051a;
+  color: white;
+  border-radius: 70%;
+}
+#divSearch {
+  margin-top: 20px;
+}
+
+.botonHome {
+  background-color: transparent;
+  border-width: medium;
+  display: inline-block;
+  border-radius: 20px;
+  border-color: white;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  box-sizing: border-box;
+}
+.botonHome:hover {
+  background-color: white;
+  color: #376299;
+}
+.buscarbut {
+  background-color: transparent;
+  border-width: medium;
+  display: inline-block;
+  border-radius: 40px;
+  border-color: white;
+  color: white;
+
+  text-align: center;
+  font-size: 30px;
+  transition-duration: 0.4s;
+  box-sizing: border-box;
+}
+.buscarbut:hover {
+  background-color: white;
+  color: black;
+}
+
+.home {
+  background-color: transparent;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 64px;
+  border-radius: 30px;
+  transition-duration: 0.4s;
+  border-color: white;
+  border-width: medium;
+}
+.home:hover {
+  background-color: whitesmoke;
+}
+.fa-home {
+  position: relative;
+  right: 9px;
+  color: whitesmoke;
+}
+.fa-home:hover {
+  color: black;
+}
+.descarga {
+  background-color: transparent;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 64px;
+  border-radius: 30px;
+  transition-duration: 0.4s;
+  border-color: white;
+  border-width: medium;
+}
+.descarga:hover {
+  background-color: whitesmoke;
+}
+.fa-download {
+  position: relative;
+  right: 9px;
+  color: whitesmoke;
+}
+.fa-download:hover {
+  color: black;
+}
+h6 {
+  color: whitesmoke;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background-size: 120%;
+  width: 20px;
+  height: 20px;
+  border-width: medium;
+}
+.mark,
+mark {
+  background-color: yellow;
+}
+.lista {
+  margin-bottom: 10px;
+}
+.container-fluid {
+  margin-bottom: 20px;
+}
+
+.selectpicker {
+  width: 300px;
+  display: block;
+}
+
+#listatema,
+#listaSub {
+  overflow-y: scroll;
+  height: 300px;
+}
+.bi-chevron-right {
+  width: 2em;
+  height: 2em;
+}
+.bi-chevron-left {
+  width: 2em;
+  height: 2em;
+}
+.params {
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+}
+.fa-angle-down {
+  color: whitesmoke;
+  cursor: pointer;
+}
+.MuiPaginationItem-page {
+  color: white;
+}
+.MuiPaginationItem-page.Mui-selected {
+  background-color: lightsteelblue;
+}
+.MuiPaginationItem-root {
+  color: white;
+  text-align: center;
+}
